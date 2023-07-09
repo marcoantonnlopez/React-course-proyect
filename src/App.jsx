@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { Heading } from '@chakra-ui/react'
+import  ProductAddToCart  from './components/CardProduct';
 import Nav from './components/Header'
+import { Flex } from '@chakra-ui/react';
 
 function App() {
 
@@ -10,6 +11,11 @@ function App() {
       <div>
         <Nav/>
         
+        <Flex direction="row" wrap="wrap" justifyContent="space-around">
+          <ProductAddToCart/>
+          <ProductAddToCart/>
+          <ProductAddToCart/>
+        </Flex>
       </div>
     </>
   )
