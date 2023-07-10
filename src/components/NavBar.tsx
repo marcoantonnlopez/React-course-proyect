@@ -17,7 +17,7 @@ import {
   Stack,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
-import { CartButton } from './CartButton';
+import { CartButton } from './CartWidget';
 
 const cartCount = 5;
 const Links = ['Dashboard', 'Projects', 'Team'];
